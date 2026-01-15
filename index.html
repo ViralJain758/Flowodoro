@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="progress-container">
+            <svg class="progress-ring" width="280" height="280">
+                <circle
+                    class="progress-ring__circle"
+                    stroke="#8080ff"
+                    stroke-width="10"
+                    fill="transparent"
+                    r="130"
+                    cx="140"
+                    cy="140"
+                />
+            </svg>
+            <div id="timer">25:00</div>
+        </div>
+
+        <p class="counter">Pomodoros Completed: <span id="pomodoroCount">0</span></p>
+
+        <audio id="beep">
+            <source src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" type="audio/ogg">
+        </audio>
+
+        <h1 class="title">Click Start for Work Time</h1>
+        <div class="buttons">
+            <button id="startstopBtn">Start</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
