@@ -1,4 +1,4 @@
-#  Pomodoro Clock
+#  Flowodoro
 
 A minimalist **Pomodoro Timer** built with **HTML, CSS, and Vanilla JavaScript**, featuring a circular progress indicator, automatic work/break switching, and pomodoro tracking.
 
@@ -9,7 +9,7 @@ This project focuses on **logic clarity, smooth UI feedback, and zero unnecessar
 ## Live Demo
 
 ```
-https://pomodoroclock-viraljain.netlify.app/
+https://flowodoro.netlify.app/
 ```
 
 ---
@@ -53,7 +53,7 @@ No frameworks. No libraries. No shortcuts.
 ##  Project Structure
 
 ```
-pomodoro-clock/
+Flowodoro/
 │
 ├── index.html     # Markup
 ├── styles.css     # Styling
@@ -71,7 +71,7 @@ Go to the link provided above and click **Start**
 
 1. Clone the repository:
    ```
-   git clone https://https://github.com/ViralJain758/Pomodoro-Clock.git
+   git clone https://github.com/ViralJain758/Flowodoro.git
    ```
 
 2. Open `index.html` in your browser.
